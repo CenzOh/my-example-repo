@@ -1,0 +1,30 @@
+html {
+  background-image: url(https://www.newegg.com/insider/wp-content/uploads/windows_xp_bliss-wide.jpg);
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+/* CTRL + / to make comments! */
+.post-wrapper {
+    border: 2px solid black;
+    flex-shrink: 3;
+    margin: 10px 20px 10px 20px;
+    padding: 10px;
+  }
+  .container {
+    display: flex;
+    flex-direction: row;
+  }
+
+  @media (max-width: 600px) {
+    .container {
+      flex-direction: column;
+    }
+    p {
+      font-size: 1.5em;
+      font-family: 'Hanalei Fill', cursive;
+    }
+  }
